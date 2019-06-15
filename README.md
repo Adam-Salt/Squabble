@@ -13,9 +13,11 @@ Navigation page (Desktop only)
 Squabble was created because we wanted an application which wouldn't track messages, use and store data, give advertisements or release subscription packages. Squabble is a hassle-free solution to global communication.
 
 ## Data & Privacy
-Data is not stored, kept or used in anyway. You can rest assured knowing that your messages are between you and the recipient. We aim to have the highest privacy because we put the user first.
+Data is not stored, kept or used in anyway. We always try to put the user first.
 ##
 > Squabble is more then a generic chatting application. It is privacy at your fingertips
 
 ##
 https://squabble.glitch.me
+
+*While squabble tries to be secure we are not responsible for any attacks or threats to user data.*
