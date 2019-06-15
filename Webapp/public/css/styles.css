@@ -1,8 +1,23 @@
-button, button:hover {
+button  {
   border: none;
   color: #fff;
   padding: 10px; 
 }
+
+
+.back {
+  width: 100px;
+  height: auto;
+    background-color: #f29252;
+  color: black;
+    border: 5px solid black;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 10px; 
+}
+
 
 .chat__messages, .chat__sidebar ul {
   list-style-type: none; 
@@ -36,6 +51,7 @@ button {
 
 button:hover {
   background: #3a3a3a; 
+  color: white;
 }
 
 button:disabled {
@@ -86,7 +102,6 @@ button:disabled {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-background-color: #0072FF;
 } 
 
 .chat__sidebar {
@@ -98,8 +113,6 @@ background-color: #0072FF;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-background-color: #0072FF;
-
 }
 
 .chat__footer, .chat__sidebar li {
@@ -133,6 +146,7 @@ background-color: #0072FF;
   overflow-y: scroll;
   -webkit-overflow-scrolling:touch;
   padding: 10px;
+  margin-top: 30px
 }
 
 .chat__footer {
@@ -194,6 +208,7 @@ background-color: #0072FF;
   }
 }
 
+
 .home {
  background: url(http://hdqwalls.com/wallpapers/polygon-lake-sunset-minimalist-hl.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -201,10 +216,19 @@ background-color: #0072FF;
   -o-background-size: cover;
   background-size: cover;
 background-color: #0072FF;
-width: auto;
+width: 107px;
   height: auto;
   
   }
+
+@media (max-width:767px) {
+.home {
+display: none;
+  
+  }
+}
+
+
   
   a {
    Color: black; 
