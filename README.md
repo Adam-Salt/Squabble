@@ -16,3 +16,6 @@ Squabble was created because we wanted an application which wouldn't track messa
 Data is not stored, kept or used in anyway. You can rest assured knowing that your messages are between you and the recipient. We aim to have the highest privacy because we put the user first.
 ##
 > Squabble is more then a generic chatting application. It is privacy at your fingertips
+
+##
+https://squabble.glitch.me
