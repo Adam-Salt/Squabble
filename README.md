@@ -20,4 +20,6 @@ Data is not stored, kept or used in anyway. We always try to put the user first.
 ##
 https://squabble.glitch.me
 
+##
+
 *While squabble tries to be secure we are not responsible for any attacks or threats to user data.*
