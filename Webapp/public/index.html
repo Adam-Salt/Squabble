@@ -3,78 +3,88 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Squabble | Home</title>
+  <title>Squabble | Join</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="/css/homepage.css">
+ <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" type="image/png" href="https://imgur.com/WDX9znq.png" />
 </head>
 
 <body class="centered-form">
 
-    <script type="text/javascript">
-<!--
-if (screen.width <= 699) {
-document.location = "https://squabble.glitch.me/app.html";
-}
-//-->
-</script>
+  <div class="maincontainer">
+    <font color="white">
+      <h1>
+        Squabble
+    </h1></font>
+  </div>
+  
+    <div class="maincontainer">
+      
+  <font color="white">
+      <h1>
+        Global Chat:
+    </h1></font>
   
   <div class="centered-form__form">
-      <center> 
+    <form action="/chat.html">
 
-      </center>
           
+      <div class="form-field">
+        <h3>Join:</h3>
       
       <div class="form-field">
-       <h3>
-         Welcome to squabble
-        </h3>
-        <label>Squabble is a free, fun and easy to use chatting application!</label>
-     
+        <label>Input display name:</label>
+        <input type="text" name="name" maxlength="9" autofocus/>
       </div>
       <div class="form-field">
-        
-     <a href="login.html">
-        
-        <h2>Join Global Chat
-          
-          </h2>
-         </a>
-        
-        
-             
-          <a href="private.html">
-            <h2>
-                 Join Private Chat
-               </h2>
-               </a>
-      
-       
-    </div>
+        <label>You are joining:</label>
+        <input type="text" name="room" value="Global" readonly/>
+      </div>
+      <div class="form-field">
+        <button>Join</button>
+      </div>
+      </div>
     
+      
+    </form> 
+  </div>  
+  
 
-      </div>
+
+      <font color="white">
+      <h1>
+        Private Room:
+    </h1></font>
+  
   
   <div class="centered-form__form">
-    <h3>
-     We have a native app!
-    </h3>
-    <label>
-The app provides faster times and less server lag.
-    </label>
-    <hr>
-    <p>
-    Squabble was made to be easy and quick to use, this gets even easier with our very own application, just a click of a button and you are able to chat!
-    </p>
-    <a href="https://cdn.glitch.com/7012d5b0-09aa-4aef-a26f-cdd5b9171bdc%2FSquabble.zip?1558114302523">
-    <h2>
-Download
-      </h2>    
-      </a>
-</div>
+    <form action="/chat.html">
+
           
-  
+      <div class="form-field">
+        <h3>Join:</h3>
+      
+      <div class="form-field">
+        <label>Input display name:</label>
+        <input type="text" name="name" maxlength="9" autofocus/>
+      </div>
+      <div class="form-field">
+        <label>You are joining:</label>
+        <input type="text" name="room" placeholder="Room name"/>
+      </div>
+      <div class="form-field">
+        <button>Join</button>
+      </div>
+      </div>
     
+      
+    </form> 
+  </div>  
+  
+      <font color="#49c39e">.</font>
+      </div>
+  
+   
+
 </body>
-
 </html>

@@ -13,7 +13,7 @@
   <title>Squabble | Chat</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="icon" type="image/png" href="https://imgur.com/WDX9znq.png" />
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/chat.css">
 </head>
 
 
@@ -25,28 +25,33 @@
  
           <div class="home">
             
-             <a href="https://squabble.glitch.me/app.html">
-       <button class="back">
-         <center>Home</center>
-            </button>
-       </a>
-            
-                     <a href="https://squabble.glitch.me/private.html">
-       <button class="back">
-         <center>Private Room</center>
-            </button>
-       </a>
+      <center>
+         
+         <h1>
+           Menu:
+         </h1>
+        
+        
+    <a href="https://squabble.glitch.me"><h2>
+      Home
+      </h2></a>
+        
+
+         
+         
+         
+            </center>
             
       </div>
 
-  
+
  
 
   <div class="chat__main">
     <ol id="messages" class="chat__messages"></ol>
 
-    <div class="chat__footer">
-      <form id="message-form">
+    <div class="chat__footer" >
+      <form id="message-form" >
         <input name="message" type="text" placeholder="Message" autofocus autocomplete="off"/>
         <button>Send</button>
               <!-- <button id="send-location">Send location</button> -->
@@ -54,11 +59,11 @@
       </form>
     </div>
   </div>
-  
-   <div class="chat__sidebar">
+       <div class="chat__sidebar">
     <h3>People</h3>
     <div id="users"></div>
   </div>
+  
 
   <script id="message-template" type="text/template">
     <li class="message">
