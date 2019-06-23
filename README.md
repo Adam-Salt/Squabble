@@ -5,8 +5,11 @@
 Squabble is a desktop and mobile friendly application with many great features.
 ## Features:
 The ability to create private rooms across all platforms.
+
 Multi-platform support
+
 Users list (Desktop only)
+
 Navigation page (Desktop only)
 
 ## Why Squabble was created
