@@ -22,4 +22,4 @@ https://squabble.glitch.me
 
 ##
 
-*While squabble tries to be secure we are not responsible for any attacks or threats to user data.*
+*While squabble tries to be secure we are not responsible for any attacks or threats to user data created by third party malicious intent.*
