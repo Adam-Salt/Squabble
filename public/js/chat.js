@@ -97,6 +97,6 @@ locationButton.on('click', function () {
     });
   }, function () {
     locationButton.removeAttr('disabled').text('Send location');
-    alert('Unable to fetch location.');
+    alert('Sorry, we are unable to find your location. :(');
   });
 });
